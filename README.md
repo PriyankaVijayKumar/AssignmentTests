@@ -37,7 +37,7 @@
    npm install @faker-js/faker --save-dev
    npx cypress run
    ```
-   - Cypress will be launched and under E2E testing, choose a browser to run the test scripts. 
+   - Cypress will run in headless mode and every test case inside the suite gets executed. 
 ## Test case parameter details
 
 The test cases are written in cypress -> e2e -> test.cy.js file. The fixtures for the test case is parametrized. This way the flow could be validated with different set of parameter or arguments. The fixtures are specified in the cypress -> fixtures -> constants.json file. Feel free to test the flow by adding different set of parameters. The cypress commands are specified in cypress -> support -> commands.js file. 
