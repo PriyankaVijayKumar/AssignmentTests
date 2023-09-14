@@ -1,0 +1,58 @@
+{
+  "dev": {
+    "siteUrl": "https://magento.softwaretestingboard.com/"
+  },
+
+  "validUser": {
+    "email": "testuseremail@test.com",
+    "password": "Password@123",
+    "validUserText": "Welcome, Test User!"
+  },
+
+  "invalidUser": {
+    "email": "invaliduser@example.com",
+    "password": "invalidpassword"
+  },
+
+  "emptyUser": {
+    "email": "   ",
+    "password": "  "
+  },
+
+  "caseSensitiveUser": {
+    "email": "TESTUSEREMAIL@TEST.COM",
+    "password": "PASSWORD@123"
+  },
+
+  "locators": {
+    "welcomeButton": "span.logged-in",
+    "invalidUserMessage": "[data-ui-id='message-error']",
+    "signinLink": "a",
+    "signinEmail": "#email",
+    "signinPassword": "#pass",
+    "signinButton": "button.action.login.primary:contains('Sign In')",
+    "firstName": "#firstname",
+    "lastName": "#lastname",
+    "createEmail": "#email_address",
+    "createPassword": "#password",
+    "confirmPassword": "#password-confirmation",
+    "createAccount": "button.action.submit.primary[title='Create an Account']",
+    "change": "span.customer-name",
+    "signoutButton": "div.customer-menu",
+    "ribbonText": "#pass-error"
+  },
+
+  "validation": {
+    "invalidUserText": "The account sign-in was incorrect or your account is disabled temporarily. Please wait and try again later.",
+    "invalidForm": "This is a required field.",
+    "signoutValidation": "You are signed out",
+    "signinLogin": " Sign In ",
+    "createAccText": "Create an Account",
+    "options": "Change",
+    "signoutText": "Sign Out",
+    "homePageTitle": "Home Page",
+    "createAccountTitle": "Create New Customer Account",
+    "loginTitle": "Customer Login",
+    "myAccountTitle": "My Account"
+  }
+}
